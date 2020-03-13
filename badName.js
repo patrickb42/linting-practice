@@ -1,5 +1,4 @@
 //I like documenting my code with comments that aren't useful to other devs 
-function dumb_function (){return "dumb function is dumb"}
 const badName=index=>{ 
    let type="number;"
     let a=0;let b=1
@@ -19,7 +18,8 @@ const badName=index=>{
 
       return this_i$_theVariableThat_will_be_returned_butItWill_also_be_theThingToHoldThe_newValue_thatIsNextInTheCycle_
 }
+function otherBadName (arg){return arg + 5} 
 
-let exportObj = {badName,dumb_function,}
+let exportObj = {badName,otherBadName,}
 
 module.exports  =  exportObj;
