@@ -11,7 +11,7 @@ option 2) run npx eslint --init to make eslint get downloaded and then run witho
 run npm i -g eslint and then run eslint --init
 
 ## vs code
-add the eslint plugin (it's pretty popular)
+add the eslint plugin (it's pretty popular). You will be able to view the output of the plugin in the "problems" tab. You can view it in Windows/Linux with ctrl+shift+m, and command+shift+m for Mac.
 
 ## context (you really should read this)
 There are some errors that prevent the code from functioning, everything else is just really bad code styling. Of note, if you are using Prettier, one error will be harder to find because Prettier simply covers up the mistake. This mistake is in here specifically to denote the importance of linting your code as your write it so you can more easily catch your mistakes.
