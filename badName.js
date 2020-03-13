@@ -6,7 +6,7 @@ const badName=index=>{
     let this_is_theVariableThat_will_be_returned_butItWill_also_be_theThingToHoldThe_newValue_thatIsNextInTheCycle_=1
 
     if(typeof index!=type||index<1) 
-      throw new Error( "invalid argument" );
+      throw new Error ( "invalid argument" ) ;
     if(index==1)return 0 
     for( let i=1;i<index;i++ ){
         this_is_theVariableThat_will_be_returned_butItWill_also_be_theThingToHoldThe_newValue_thatIsNextInTheCycle_ = a + b 
