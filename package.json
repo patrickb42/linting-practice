@@ -1,0 +1,22 @@
+{
+  "name": "linting-practice",
+  "version": "1.0.0",
+  "description": "hideous code that gives you a chance to lint a plethora of styling errors",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patrickb42/linting-practice.git"
+  },
+  "author": "patrickb42",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/patrickb42/linting-practice/issues"
+  },
+  "homepage": "https://github.com/patrickb42/linting-practice#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
